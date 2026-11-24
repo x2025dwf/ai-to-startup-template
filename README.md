@@ -59,11 +59,11 @@ This project already contains instructions telling Copilot the rules (plain HTML
 
 Copy one, fill in the blanks, and send it:
 
-> Our startup idea is: **[one sentence]**. Our customers are **[who]**, and the problem we solve is **[problem]**. Update `data.js` and the text in `index.html` so the site describes our startup. Don't change the layout yet.
+> Our startup idea is PlanPal, a planner that helps students organize their class schedules and assignment rubrics. Update the text in `data.js` and `index.html` to explain the benefit to students. Don't change how the planner works.
 
-> Replace the sample listings in `data.js` with 8 realistic but fake examples that fit our startup.
+> Make the daily plan easier to scan on a phone. Keep the existing class, assignment, and deadline features working.
 
-> Add a page that shows how our product gets more valuable as more people use it. Use fake numbers so we can compare 10 users with 10,000 users.
+> Add an optional location field to each class and show it beside the class time. Keep all data saved only in this browser.
 
 ### How to talk to Copilot
 
@@ -76,6 +76,8 @@ Copy one, fill in the blanks, and send it:
 ### What Copilot can't do here (on purpose)
 
 Real logins, real databases, real payments, real AI features, emails and texts all need servers, security and paid services. If you ask for them, Copilot will offer to **fake** them instead (for example, a checkout page that shows a pretend confirmation). That's the right answer for a prototype. Add the real version to the *"What a real version would need"* list in your project log — it's part of your grade.
+
+The PlanPal **Account & plans** page is a demo only: it uses a button instead of collecting login details, and its sample subscription choices never charge money or activate paid features.
 
 ## Step 5 — Save a checkpoint (commit) every time something works
 
@@ -135,8 +137,8 @@ That link is your live site. Every commit updates it automatically within a few 
 |---|---|
 | `index.html` | The structure and text of your site |
 | `styles.css` | How it looks: colours, fonts, spacing |
-| `data.js` | All your fake data (listings, prices, users…) |
-| `app.js` | What the site *does* when people click things |
+| `data.js` | Your startup's name and short description |
+| `app.js` | How the planner saves classes and assignments and builds a daily plan |
 | `project-notes/PROJECT_LOG.md` | Your team's record of prompts, problems and decisions |
 | `project-notes/BUSINESS_CASE.md` | The business reasoning behind your prototype |
 | `.github/copilot-instructions.md` | The rules Copilot follows in this project — don't delete it |
