@@ -6,6 +6,12 @@ Everything here happens in your **web browser**. You never need to type commands
 
 > **Everything in this project is public.** Use first names only (or none), and never put real personal information, passwords or keys in any file.
 
+## The StudySync prototype
+
+StudySync is a local-only student planner. It includes a weekly class schedule with add/edit/delete controls, an assignment and exam tracker with due dates, priorities, and completion status, an automatically planned daily study schedule, a deadline calendar, and workload insights. The dashboard and progress tracker update as assignments are changed.
+
+The planner saves its fictional sample data and any changes in your browser's local storage. Use **Reset sample data** in the footer to restore the original example schedule and assignments. There are no login, payment, server, or external-library features.
+
 ---
 
 ## Before the lab (do this now — it takes a few days)
@@ -59,7 +65,7 @@ This project already contains instructions telling Copilot the rules (plain HTML
 
 Copy one, fill in the blanks, and send it:
 
-> Our startup idea is PlanPal, a planner that helps students organize their class schedules and assignment rubrics. Update the text in `data.js` and `index.html` to explain the benefit to students. Don't change how the planner works.
+> Our startup idea is StudySync, a planner that helps students organize classes, assignments, and study time. Update the text in `data.js` and `index.html` to explain the benefit to students. Don't change how the planner works.
 
 > Make the daily plan easier to scan on a phone. Keep the existing class, assignment, and deadline features working.
 
@@ -77,7 +83,7 @@ Copy one, fill in the blanks, and send it:
 
 Real logins, real databases, real payments, real AI features, emails and texts all need servers, security and paid services. If you ask for them, Copilot will offer to **fake** them instead (for example, a checkout page that shows a pretend confirmation). That's the right answer for a prototype. Add the real version to the *"What a real version would need"* list in your project log — it's part of your grade.
 
-The PlanPal **Account & plans** page is a demo only: it uses a button instead of collecting login details, and its sample subscription choices never charge money or activate paid features.
+StudySync does not include login or payment forms. All planner data stays in browser storage on the current device.
 
 ## Step 5 — Save a checkpoint (commit) every time something works
 

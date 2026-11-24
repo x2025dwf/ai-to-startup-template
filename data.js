@@ -4,7 +4,7 @@
 // ============================================================
 
 const STARTUP = {
-  name: "PlanPal",
-  tagline: "Your school day, sorted.",
-  pitch: "PlanPal is a website where students enter their class schedule and assignment rubrics, and it creates a daily plan and shows when everything is due."
+  name: "StudySync",
+  tagline: "Make room for what matters.",
+  pitch: "Your classes, deadlines, and study time — in sync. StudySync turns a busy semester into a plan you can actually follow."
 };
